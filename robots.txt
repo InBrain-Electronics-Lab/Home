@@ -1,1 +1,1 @@
-Sitemap: https://inbrain-electronics-lab.github.io/InBrain-Electronics-Lab/sitemap.xml
+Sitemap: https://inbrain-electronics-lab.github.io/Home/sitemap.xml
