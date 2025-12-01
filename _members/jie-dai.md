@@ -1,10 +1,9 @@
 ---
 name: Jie Dai
 image: images/Jie.png
-role: phd
-group: alum
+role: PhD Student
 links:
-  github: RamenJD
+  email: jdai5@stevens.edu
 ---
 
 
