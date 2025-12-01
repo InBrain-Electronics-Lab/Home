@@ -1,11 +1,8 @@
 ---
 name: Sarah Johnson
-image: images/photo.jpg
-description: Lead Programmer
-role: programmer
+image: images/Sara.jpg
+role: PhD Student
 links:
-  email: sarah.johnson@gmail.com
-  twitter: sarahjohnson
+  email: sbenderb@stevens.edu
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
