@@ -1,7 +1,7 @@
 ---
 name: Ilke Uguz
-image: images/Ilke
-role: principal-investigator
+image: images/Ilke.png
+role: Principal Investigator
 affiliation: Stevens Institute of Technology
 aliases:
   - I. Uguz
