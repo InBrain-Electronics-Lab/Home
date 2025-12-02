@@ -7,9 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Please reach out to us to learn more about opportunities. 
 
 {%
   include button.html
@@ -19,14 +17,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 %}
 {%
   include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
-%}
-{%
-  include button.html
   type="address"
-  tooltip="Our location on Google Maps for easy navigation"
+  tooltip="Our lab location on Google Maps"
   link="https://www.google.com/maps/dir//McLean+Hall,+River+St,+Hoboken,+NJ+07030"
 %}
 
