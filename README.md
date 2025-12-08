@@ -3,7 +3,7 @@
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
   ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
 
-  # InBrain-Electronics-Lab's Website
+  # InBrain Electronics Lab's Website
 
   Visit **[inbrain-electronics-lab.github.io/Home](https://inbrain-electronics-lab.github.io/Home)** 🚀
 
