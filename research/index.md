@@ -12,16 +12,16 @@ Our research is focused on bioelectronic interfaces for minimally-invasive inbra
 
 ## Projects
 
-**Minimally-Invasive Ultrasound-Fascilitated Drug-Delivery Through the Blood-Brain Barrier
+**Minimally-Invasive Ultrasound-Fascilitated Drug-Delivery Through the Blood-Brain Barrier**
     In collaboration with the MITUS Lab at TU Delft and the Cea Group at Yale, we are working to create and test inbrain solutions for drug delivery to treat neurological conditions.
 
-**Biocompatible Conductive Polymers for InBrain Electronics Applications
+**Biocompatible Conductive Polymers for InBrain Electronics Applications**
   In collaboration with the Laboratory of Organic Electronics at Linköping University, we are developing inbrain applications for a novel optically polymerized conductive polymer.
 
-**Multi-Analyte Chemical Sensing Utilizing a Microfluidic Model with an In-built Organic ElectroChemical Transistors (OECTs)
+**Multi-Analyte Chemical Sensing Utilizing a Microfluidic Model with an In-built Organic ElectroChemical Transistors (OECTs)**
   We are developing an organic chemical sensing platform to measure multiple analytes simultaneously.
 
-**Fabrication of Novel OECT Geometries for Optimal Transconductance
+**Fabrication of Novel OECT Geometries for Optimal Transconductance**
   We are fabricating creative geometrical vertical OECTs to minimize channel length and optimize conductivity.
 {% include section.html %}
 
