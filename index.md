@@ -11,12 +11,12 @@ The InBrain Electronics Lab is based at Stevens Institute of Technology, affilia
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are primarily exploring flexible and injectable organic electronics applications for inbrain sensing and stimulation, biochemical analyte sensing, and inbrain drug delivery.
 
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="Learn about our research"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
