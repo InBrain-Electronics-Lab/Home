@@ -9,7 +9,7 @@ nav:
 
 {% include section.html %}
 {% include section.html background="images/background.jpg" dark=true %}
-{% include list.html data="members/ilke-uguz.md" component="portrait" filter="role == 'pi'" %}
+{% include list.html data="site.members" component="portrait" filter="role == 'pi'" %}
 
 
 
