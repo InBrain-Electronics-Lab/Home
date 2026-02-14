@@ -9,25 +9,22 @@ nav:
 
 We are thrilled to work with talented collaborators around the world, who are pushing the boundaries of what is possible in their respective fields.
 
-{% include tags.html tags="publication, resource, website" %}
-
 {% include search-info.html %}
 
 {% include section.html %}
 
 ## Dr. Tiago Costa
-
-
+https://mitus-lab.netlify.app/
 
 {% include section.html %}
 
 ## Dr. Claudia Cea
-
+https://engineering.yale.edu/research-and-faculty/faculty-directory/claudia-cea
 
 {% include section.html %}
 
-## Dr. Tobias Abrahamsson
-
+## Dr. Magnus Berggren
+https://liu.se/en/research/laboratory-of-organic-electronics
 
 {% include section.html %}
 
