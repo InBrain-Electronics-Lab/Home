@@ -8,12 +8,10 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@InBrain-Electronics-Lab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: iuguz@stevens.edu
+  orcid: 
+  google-scholar:
   github: InBrain-Electronics-Lab
-  twitter: InBrain-Electronics-Lab
-  youtube: InBrain-Electronics-Lab
 
 ### jekyll settings
 
