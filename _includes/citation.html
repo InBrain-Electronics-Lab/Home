@@ -47,16 +47,28 @@
         {% endif %}
         tabindex="0"
       >
+
+        {% assign authors_array = citation.authors | join: "," | split: "," %}
+
+        {% capture carved_authors %}
+          {% if authors_array.size <= 10 %}
+            {{ authors_array | join: ", " }}
+          {% else %}
+            {% assign left = authors_array | slice: 0, 5 %}
+            {% assign right_start = authors_array.size | minus: 5 %}
+            {% assign right = authors_array | slice: right_start, 5 %}
+            {{ left | join: ", " }}, ..., {{ right | join: ", " }}
+          {% endif %}
+        {% endcapture %}
+
         {{
-          citation.authors
-          | join: ","
-          | split: ","
-          | array_carve: 5
-          | join: ", "
+          carved_authors
           | markdownify
-          | remove: "<p>" | remove: "</p>"
+          | remove: "<p>"
+          | remove: "</p>"
           | default: "[no author info]"
         }}
+
       </div>
 
       <div class="citation-details">
