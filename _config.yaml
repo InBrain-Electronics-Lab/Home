@@ -74,6 +74,4 @@ exclude:
 
 jekyll-spaceship:
   processors:
-    - mathjax
-    - mermaid
     - emoji
