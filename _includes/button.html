@@ -3,9 +3,16 @@
 
 {% if button.link or button.icon or button.text %}
   <div class="button-wrapper">
+
+    {% assign link = button.link %}
+
+    {% unless link contains "://" or link contains "mailto:" %}
+      {% assign link = link | relative_url %}
+    {% endunless %}
+
     <a
       class="button"
-      href="{{ button.link | replace: "$LINK", button.link | relative_url }}"
+      href="{{ link }}"
       {% if button.tooltip %}
         data-tooltip="{{ button.tooltip | xml_escape }}"
       {% endif %}
@@ -20,5 +27,6 @@
         <span>{{ button.text }}</span>
       {% endif %}
     </a>
+
   </div>
 {% endif %}
