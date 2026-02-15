@@ -13,7 +13,7 @@ nav:
 
   Assistant Professor, Biomedical Engineering, Stevens Institute of Technology
   Postdoctoral Researcher, Electrical Engineering, Columbia University
-  PhD, Electrical Engineering, École des Mines de Saint-Étienne
+  PhD, Electrical Engineering, Ecole des Mines de Saint-Etienne
   Master of Science, Biophysics, Technical University of Dresden
   Bachelor's Degree, Electrical Engineering, Yildiz Technical University
 
