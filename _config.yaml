@@ -74,5 +74,12 @@ exclude:
 
 jekyll-spaceship:
   processors:
-    - table
+    - mathjax
+    - plantuml
+    - mermaid
+    - polyfill
+    - media
+    - emoji
+    - element
+
 
