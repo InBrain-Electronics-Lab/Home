@@ -22,11 +22,11 @@ Hobbies:
 
 {% include section.html %}
 
-{% include list.html data="members/ilke-uguz.md" component="portrait" filter="role == 'Principal Investigator'" %} {% include section.html background="images/background.jpg" dark=true %} {% include figure.html image="images/Ilke.png" %}
+{% include list.html data="members/ilke-uguz.md" component="portrait" filter="role == 'Principal Investigator'" %} {% include section.html background="images/backgroundv4.png" dark=true %} {% include figure.html image="images/Ilke.png" %}
 
 {% include section.html %}
 {% include list.html data="members/sara-bender-bier.md" component="portrait" filter="role == 'PhD Student'" %}
-{% include section.html background="images/background.jpg" dark=true %}
+{% include section.html background="images/backgroundv4.png" dark=true %}
 {% include figure.html image="images/Sara.jpg" %}
 
   PhD Student, Biomedical Engineering, Stevens Institute of Technology
