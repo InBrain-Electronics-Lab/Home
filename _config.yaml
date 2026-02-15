@@ -71,4 +71,23 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
-  - static-images
+
+jekyll-spaceship:
+  processors:
+    table: true
+    mathjax: true
+    plantuml: true
+    mermaid: true
+    polyfill: true
+    media: true
+    emoji: true
+    element: true
+
+  ignore:
+    - "*.png"
+    - "*.jpg"
+    - "*.jpeg"
+    - "*.gif"
+    - "*.webp"
+    - "*.ico"
+
