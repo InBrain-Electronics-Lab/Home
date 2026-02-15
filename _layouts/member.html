@@ -28,9 +28,10 @@ layout: default
   | compact
 %}
 
-{% capture search -%}
-  research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %}
+{% assign search = "research/?search=" %}
+{% for alias in aliases %}
+  {% assign search = search | append: '"' | append: alias | append: '" ' %}
+{% endfor %}
 
 <p class="center">
   <a href="{{ search | relative_url | uri_escape }}">
@@ -38,9 +39,7 @@ layout: default
   </a>
 </p>
 
-{% capture search -%}
-  blog/?search={{ page.name }}
-{%- endcapture %}
+{% assign search = "blog/?search=" | append: page.name %}
 
 <!--
 <p class="center">
