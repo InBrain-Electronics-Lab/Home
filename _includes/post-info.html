@@ -4,7 +4,7 @@
       | join: ","
       | downcase
       | split: ","
-      | array_filter
+      | compact
     %}
     {% for author in authors %}
       {% assign member = site.members
