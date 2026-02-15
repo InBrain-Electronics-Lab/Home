@@ -75,11 +75,5 @@ exclude:
 jekyll-spaceship:
   processors:
     - mathjax
-    - plantuml
     - mermaid
-    - polyfill
-    - media
     - emoji
-    - element
-
-
