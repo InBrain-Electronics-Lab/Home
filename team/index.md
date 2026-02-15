@@ -8,7 +8,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-users" %}A small but mighty team makes up the InBrain Electronics Lab!
 
 {% include section.html %}
-{% include section.html background="images/background.jpg" dark=true %}
+{% include section.html background="images/backgroundv4.png" dark=true %}
 {% include list.html data="site.members" component="portrait" filter="role == 'pi'" %}
 
   Assistant Professor, Biomedical Engineering, Stevens Institute of Technology
