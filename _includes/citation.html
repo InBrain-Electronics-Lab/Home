@@ -61,13 +61,7 @@
           {% endif %}
         {% endcapture %}
 
-        {{
-          carved_authors
-          | markdownify
-          | remove: "<p>"
-          | remove: "</p>"
-          | default: "[no author info]"
-        }}
+        {{ carved_authors | default: "[no author info]" }}
 
       </div>
 
