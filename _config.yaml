@@ -71,3 +71,7 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
+
+jekyll-spaceship:
+  processors: []
+
