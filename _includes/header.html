@@ -1,10 +1,10 @@
 {% assign image = page.header | default: site.header %}
 {% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
 
-{% if "images/mouselogo.png" | file_exists %}
-  {% assign logo = "images/mouselogo.png" %}
-{% elsif "images/mouselogo.jpg" | file_exists %}
-  {% assign logo = "images/mouselogo.jpg" %}
+{% if "static-images/mouselogo.png" | file_exists %}
+  {% assign logo = "static-images/mouselogo.png" %}
+{% elsif "static-images/mouselogo.jpg" | file_exists %}
+  {% assign logo = "static-images/mouselogo.jpg" %}
 {% endif %}
 
 <header
@@ -20,8 +20,8 @@
   <a href="{{ "/" | relative_url }}" class="home">
     {% if logo %}
       <span class="logo">
-        {% if logo == "images/mouselogo.png" %}
-          {{ "images/mouselogo.png" | file_read }}
+        {% if logo == "static-images/mouselogo.png" %}
+          {{ "static-images/mouselogo.png" | file_read }}
         {% else %}
           <img src="{{ logo | relative_url | uri_escape }}" alt="logo">
         {% endif %}
