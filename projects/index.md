@@ -23,7 +23,7 @@ https://engineering.yale.edu/research-and-faculty/faculty-directory/claudia-cea
 
 {% include section.html %}
 
-## Dr. Magnus Berggren
+## Dr. Xenofon Strakosas
 https://liu.se/en/research/laboratory-of-organic-electronics
 
 {% include section.html %}
