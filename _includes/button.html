@@ -2,35 +2,37 @@
 {% assign button = button | hash_default: site.data.types[include.type] %}
 
 {%- comment -%}
-Normalize accidental array link input
+Normalize link into safe string
+Handles accidental array input
 {%- endcomment -%}
 
-{% assign normalized_link = button.link %}
+{% assign url = button.link %}
 
-{% if normalized_link and normalized_link.first and normalized_link.last %}
-  {% assign normalized_link = normalized_link | last %}
+{% if url and url.first and url.last %}
+  {% assign url = url | last %}
 {% endif %}
 
 {%- comment -%}
-Apply $VALUE replacement if needed
+Apply $VALUE substitution if needed
 {%- endcomment -%}
 
-{% if normalized_link contains "$VALUE" and include.link %}
-  {% assign normalized_link = normalized_link | replace: "$VALUE", include.link %}
+{% if url and url contains "$VALUE" and include.link %}
+  {% assign url = url | replace: "$VALUE", include.link %}
 {% endif %}
 
-{% if normalized_link or button.icon or button.text %}
+{% if button.link or button.icon or button.text %}
+
   <div class="button-wrapper">
 
-    {% assign link = normalized_link %}
+    {% assign final_url = url %}
 
-    {% unless link contains "://" or link contains "mailto:" or link contains "tel:" %}
-      {% assign link = link | relative_url %}
+    {% unless final_url contains "://" or final_url contains "mailto:" or final_url contains "tel:" %}
+      {% assign final_url = final_url | relative_url %}
     {% endunless %}
 
     <a
       class="button"
-      href="{{ link }}"
+      href="{{ final_url }}"
       {% if button.tooltip %}
         data-tooltip="{{ button.tooltip | xml_escape }}"
       {% endif %}
@@ -41,10 +43,11 @@ Apply $VALUE replacement if needed
       aria-label="{{ button.tooltip | default: button.icon | default: "button" | regex_strip }}"
     >
       {% include icon.html icon=button.icon %}
-      {% if button.text and button.text != "" %}
+      {% if button.text %}
         <span>{{ button.text }}</span>
       {% endif %}
     </a>
 
   </div>
+
 {% endif %}
