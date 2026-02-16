@@ -5,22 +5,24 @@
 Normalize accidental array link input
 {%- endcomment -%}
 
-{% if button.link and button.link.first and button.link.last %}
-  {% assign button.link = button.link | last %}
+{% assign normalized_link = button.link %}
+
+{% if normalized_link and normalized_link.first and normalized_link.last %}
+  {% assign normalized_link = normalized_link | last %}
 {% endif %}
 
 {%- comment -%}
 Apply $VALUE replacement if needed
 {%- endcomment -%}
 
-{% if button.link contains "$VALUE" and include.link %}
-  {% assign button.link = button.link | replace: "$VALUE", include.link %}
+{% if normalized_link contains "$VALUE" and include.link %}
+  {% assign normalized_link = normalized_link | replace: "$VALUE", include.link %}
 {% endif %}
 
-{% if button.link or button.icon or button.text %}
+{% if normalized_link or button.icon or button.text %}
   <div class="button-wrapper">
 
-    {% assign link = button.link %}
+    {% assign link = normalized_link %}
 
     {% unless link contains "://" or link contains "mailto:" or link contains "tel:" %}
       {% assign link = link | relative_url %}
