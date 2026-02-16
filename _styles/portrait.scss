@@ -77,3 +77,16 @@
     display: none;
   }
 }
+
+.portrait-wrapper {
+  width: 220px;
+  margin: 0 auto;
+}
+
+.portrait-image {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
