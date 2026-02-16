@@ -1,6 +1,14 @@
 {% assign button = include %}
 {% assign button = button | hash_default: site.data.types[include.type] %}
 
+{%- comment -%}
+Safety: if link accidentally comes through as [key, value] array,
+extract the actual URL (index 1)
+{%- endcomment -%}
+{% if button.link and button.link.size and button.link[1] %}
+  {% assign button.link = button.link[1] %}
+{% endif %}
+
 {% if button.link or button.icon or button.text %}
   <div class="button-wrapper">
 
