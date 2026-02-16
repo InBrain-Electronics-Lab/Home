@@ -13,3 +13,11 @@ body {
   text-align: center;
   line-height: var(--compact);
 }
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
