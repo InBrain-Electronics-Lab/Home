@@ -12,7 +12,7 @@
 <div class="portrait-wrapper">
   <a
     {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url | uri_escape }}"
+      href="{{ member.url | relative_url }}"
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
@@ -23,7 +23,7 @@
     {% endif %}
 
     <img
-      src="{{ member.image | relative_url | uri_escape }}"
+      src="{{ member.image | relative_url }}"
       class="portrait-image"
       alt="member portrait"
       loading="lazy"
