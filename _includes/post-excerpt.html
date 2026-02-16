@@ -10,9 +10,9 @@
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
-    {% assign url = post.url | relative_url | uri_escape %}
+    {% assign url = post.url | relative_url %}
     {% assign title = post.title %}
-    {% assign image = post.image | relative_url | uri_escape %}
+    {% assign image = post.image | relative_url %}
 
     {% if image %}
       <a
