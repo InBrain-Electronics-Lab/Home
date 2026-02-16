@@ -24,3 +24,17 @@
   font-style: italic;
   text-align: center;
 }
+
+
+figure.figure {
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+}
+
+figure.figure img {
+  width: 100% !important;
+  height: 100% !important;
+  max-height: none !important;
+  object-fit: cover !important;
+}
