@@ -15,11 +15,11 @@ nav:
 
 {% include list.html data="members/ilke-uguz.md" component="portrait" filter="role == 'Principal Investigator'" %} {% include section.html background="images/backgroundv4.png" dark=true %} {% include figure.html image="images/Ilke.png" %}
 
-  Assistant Professor, Biomedical Engineering, Stevens Institute of Technology
-  Postdoctoral Researcher, Electrical Engineering, Columbia University
-  PhD, Electrical Engineering, Ecole des Mines de Saint-Etienne
-  Master of Science, Biophysics, Technical University of Dresden
-  Bachelor's Degree, Electrical Engineering, Yildiz Technical University
+  Assistant Professor, Biomedical Engineering, Stevens Institute of Technology<br>
+  Postdoctoral Researcher, Electrical Engineering, Columbia University<br>
+  PhD, Microelectronics, École des Mines de Saint-Étienne<br>
+  Master of Science, Biophysics, Dresden Technical University<br>
+  Bachelor's Degree, Electrical Engineering, Yildiz Technical University<br>
 
 Research Interests:<br>
 Hobbies: 
