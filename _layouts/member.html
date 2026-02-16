@@ -7,14 +7,12 @@ layout: default
 {% include portrait.html lookup=page.slug %}
 
 <div>
-
   {% for link in page.links %}
     {% assign key = link[0] %}
     {% assign value = link[1] %}
     {% include button.html type=key link=value style="bare" %}
     <br>
   {% endfor %}
-
 </div>
 
 {% endcapture %}
@@ -23,7 +21,7 @@ layout: default
 
 {{ content }}
 
-{% assign aliases = page.aliases
+{% assign member_aliases = page.aliases
   | default: page.name
   | default: page.title
   | join: ","
@@ -31,23 +29,15 @@ layout: default
   | compact
 %}
 
-{% assign search = "research/?search=" %}
-{% for alias in aliases %}
-  {% assign search = search | append: '"' | append: alias | append: '" ' %}
+{% assign member_search_url = "research/?search=" %}
+{% for alias in member_aliases %}
+  {% assign member_search_url = member_search_url | append: '"' | append: alias | append: '" ' %}
 {% endfor %}
 
 <p class="center">
-  <a href="{{ search | relative_url }}">
+  <a href="{{ member_search_url | relative_url }}">
     Search for {{ page.name | default: page.title }}'s papers on the Research page
   </a>
 </p>
 
-{% assign search = "blog/?search=" | append: page.name %}
-
-<!--
-<p class="center">
-  <a href="{{ search | relative_url }}">
-    See {{ page.name | default: page.title }}'s posts on the Blog page
-  </a>
-</p>
--->
+{% assign member_blog_search = "blog/?search=" | append: page.name %}
