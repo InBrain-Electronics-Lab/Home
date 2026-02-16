@@ -9,7 +9,7 @@
 
 <header
   class="background"
-  style="--image: url('{{ image | relative_url | uri_escape }}')"
+  style="--image: url('{{ image | relative_url }}')"
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}
@@ -45,7 +45,7 @@
     {% for page in pages %}
       {% if page.nav %}
         <a
-          href="{{ page.dir | relative_url | uri_escape }}"
+          href="{{ page.dir | relative_url }}"
           data-tooltip="{{ page.nav.tooltip | xml_escape }}"
         >
           {{ page.title }}
