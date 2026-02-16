@@ -10,7 +10,7 @@ proofer: false
 links:
   email: contact@InBrain-Electronics-Lab.com
   orcid: 0000-0001-8898-876X
-  google-scholar: https://scholar.google.com/citations?user=rKYU2CkAAAAJ&hl=en
+  google-scholar: rKYU2CkAAAAJ
   github: InBrain-Electronics-Lab
   
 ### jekyll settings
