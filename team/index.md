@@ -11,6 +11,10 @@ nav:
 {% include section.html background="images/backgroundv4.png" dark=true %}
 {% include list.html data="site.members" component="portrait" filter="role == 'pi'" %}
 
+{% include section.html %}
+
+{% include list.html data="members/ilke-uguz.md" component="portrait" filter="role == 'Principal Investigator'" %} {% include section.html background="images/backgroundv4.png" dark=true %} {% include figure.html image="images/Ilke.png" %}
+
   Assistant Professor, Biomedical Engineering, Stevens Institute of Technology
   Postdoctoral Researcher, Electrical Engineering, Columbia University
   PhD, Electrical Engineering, Ecole des Mines de Saint-Etienne
@@ -20,9 +24,7 @@ nav:
 Research Interests:
 Hobbies: 
 
-{% include section.html %}
 
-{% include list.html data="members/ilke-uguz.md" component="portrait" filter="role == 'Principal Investigator'" %} {% include section.html background="images/backgroundv4.png" dark=true %} {% include figure.html image="images/Ilke.png" %}
 
 {% include section.html %}
 {% include list.html data="members/sara-bender-bier.md" component="portrait" filter="role == 'PhD Student'" %}
@@ -40,7 +42,6 @@ Hobbies: Soccer, Hiking, 3D Printing, Hanging out with my dog Lincoln
 
 {% capture content %}
 
-{% include figure.html image="images/photo.jpg" %}
 
 {% endcapture %}
 
