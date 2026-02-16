@@ -32,15 +32,12 @@
 
 {% assign description = description | xml_escape %}
 
-{# ================= FIX #1 — ICON DETECTION ================= #}
-
 {% if "images/icon.png" | file_exists %}
   {% assign icon = "images/icon.png" | relative_url %}
 {% elsif "images/icon.jpg" | file_exists %}
   {% assign icon = "images/icon.jpg" | relative_url %}
 {% endif %}
 
-{# ================= FIX #2 — SHARE IMAGE DETECTION ================= #}
 
 {% if "images/share.jpg" | file_exists %}
   {% assign share = "images/share.jpg" | relative_url %}
