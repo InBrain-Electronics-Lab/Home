@@ -26,7 +26,7 @@ We are primarily exploring flexible and injectable organic electronics applicati
 
 {%
   include feature.html
-  image="images/Intersection.png"
+  image="images/intersectioninbrainelectronics.png"
   link="research"
   title="Our Research"
   text=text
