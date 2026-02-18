@@ -80,10 +80,3 @@ jekyll-spaceship:
     emoji: true
     element: true
 
-  ignore:
-    - "*.jpg"
-    - "*.jpeg"
-    - "*.gif"
-    - "*.webp"
-    - "*.ico"
-
