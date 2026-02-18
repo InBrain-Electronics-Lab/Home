@@ -31,7 +31,7 @@ Dr. Claudia Cea leads The Cea Lab at Yale University, developing soft, multifunc
 
 ## Dr. Xenofon Strakosas
 
-🌐 **[Visit Lab of Organic Electronics Lab](https://liu.se/en/research/laboratory-of-organic-electronics)**
+🌐 **[Visit Lab of Organic Electronics](https://liu.se/en/research/laboratory-of-organic-electronics)**
 
 At the Laboratory of Organic Electronics (LOE) at Linköping University, Dr. Xenofon Strakosas conducts research focused on the development of organic electronic materials and bioelectronic interfaces that seamlessly communicate with biological systems. His work spans conductive polymers and mixed ion-electron conducting materials tailored for soft, biocompatible devices capable of sensing and stimulating tissues. A key element of the lab’s research involves visible-light–driven photopolymerization and photopatterning techniques to form conductive polymer structures and electrodes directly on flexible substrates and biological surfaces, advancing scalable, gentle fabrication methods for next-generation bioelectronics.
 
