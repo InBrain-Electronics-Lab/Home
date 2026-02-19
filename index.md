@@ -49,7 +49,7 @@ We are grateful to have impressive collaborators around the world working with u
 
 {%
   include feature.html
-  image="images/Collaborators.png"
+  image="images/Collaborators1.png"
   link="projects"
   title="Our Collaborators"
   flip=true
