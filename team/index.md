@@ -21,8 +21,7 @@ nav:
   Master of Science, Biophysics, Dresden Technical University<br>
   Bachelor's Degree, Electrical Engineering, Yildiz Technical University<br>
 
-Research Interests:<br>
-Hobbies: 
+<!--Research Interests:<br> Hobbies: -->
 
 
 
