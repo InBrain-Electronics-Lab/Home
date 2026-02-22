@@ -1,6 +1,6 @@
 ---
 name: Julia Reznik
-image: images/Sara.jpg
+image: images/Julia.jpeg
 role: Undergraduate Student
 affiliation: Stevens Institute of Technology
 links:
