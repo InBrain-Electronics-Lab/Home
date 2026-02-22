@@ -43,11 +43,12 @@ Hobbies: Soccer, Hiking, 3D Printing, Hanging out with my dog Lincoln
 {% include list.html data="members/julia-reznik.md" component="portrait" filter="role == 'Undergraduate Research Assistant'" %}
 {% include section.html background="images/backgroundv4.png" dark=true %}
 {% include figure.html image="images/julia-reznik.jpeg" %}
-Undergraduate student in Biomedical Engineering, with a concentration in Neuroengineering and Biomedical Imaging, at Stevens Institute of Technology.
+
+  Undergraduate Student, Biomedical Engineering, a concentration in Neuroengineering and Biomedical Imaging, Stevens Institute of Technology<br>
 
 As part of her biomedical engineering curriculum at Stevens Institute of Technology, Julia has completed a range of projects spanning biomaterials, digital signal processing, biosensors, biomechanics, circuits, and dynamical systems. Through this work, she has developed strong hands-on proficiency in engineering design and simulation tools, including MATLAB, SolidWorks, COMSOL, and Simulink. In addition, Julia serves as an Undergraduate Laboratory and Grading Assistant for two sophomore-level engineering courses, ENGR 245 (Circuits and Systems) and ENGR 212 (Design of Dynamical Systems), where she supports students in circuit implementation, characterization, and system modeling, while further strengthening her technical and instructional expertise.
 
-Research Interests: Implantable neuroprosthetics and neurorehabilitation technology
+Research Interests: Implantable neuroprosthetics and neurorehabilitation technology<br>
 Hobbies: Snowboarding, Traveling, 3D Design, Playing Guitar, and Reading.
 
 
