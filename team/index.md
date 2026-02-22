@@ -15,6 +15,7 @@ nav:
 
 {% include list.html data="members/ilke-uguz.md" component="portrait" filter="role == 'Principal Investigator'" %} {% include section.html background="images/backgroundv4.png" dark=true %} {% include figure.html image="images/Ilke.png" %}
 
+  Ilke Uguz, Ph.D.<br>
   Assistant Professor, Biomedical Engineering, Stevens Institute of Technology<br>
   Postdoctoral Researcher, Electrical Engineering, Columbia University<br>
   PhD, Microelectronics, École des Mines de Saint-Étienne<br>
@@ -30,6 +31,7 @@ nav:
 {% include section.html background="images/backgroundv4.png" dark=true %}
 {% include figure.html image="images/Sara.jpg" %}
 
+  Sara Bender-Bier<br>
   PhD Student, Biomedical Engineering, Stevens Institute of Technology<br>
   Master of BioEngineering, Applied Bioengineering, Rice University<br>
   Bachelor of Science, Cellular & Molecular Biology: Biomedical Engineering, University of Michigan<br>
@@ -44,6 +46,7 @@ Hobbies: Soccer, Hiking, 3D Printing, Hanging out with my dog Lincoln
 {% include section.html background="images/backgroundv4.png" dark=true %}
 {% include figure.html image="images/Julia.jpeg" %}
 
+  Julia Reznik<br>
   Undergraduate Student, Biomedical Engineering, a concentration in Neuroengineering and Biomedical Imaging, Stevens Institute of Technology<br>
 
 As part of her biomedical engineering curriculum at Stevens Institute of Technology, Julia has completed a range of projects spanning biomaterials, digital signal processing, biosensors, biomechanics, circuits, and dynamical systems. Through this work, she has developed strong hands-on proficiency in engineering design and simulation tools, including MATLAB, SolidWorks, COMSOL, and Simulink. In addition, Julia serves as an Undergraduate Laboratory and Grading Assistant for two sophomore-level engineering courses, ENGR 245 (Circuits and Systems) and ENGR 212 (Design of Dynamical Systems), where she supports students in circuit implementation, characterization, and system modeling, while further strengthening her technical and instructional expertise.
