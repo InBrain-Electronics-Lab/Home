@@ -42,7 +42,7 @@ Hobbies: Soccer, Hiking, 3D Printing, Hanging out with my dog Lincoln
 {% include section.html %}
 {% include list.html data="members/julia-reznik.md" component="portrait" filter="role == 'Undergraduate Research Assistant'" %}
 {% include section.html background="images/backgroundv4.png" dark=true %}
-{% include figure.html image="images/julia-reznik.jpeg" %}
+{% include figure.html image="images/Julia.jpeg" %}
 
   Undergraduate Student, Biomedical Engineering, a concentration in Neuroengineering and Biomedical Imaging, Stevens Institute of Technology<br>
 
