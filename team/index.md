@@ -14,7 +14,6 @@ nav:
 {% include section.html %}
 
 {% include list.html data="members/ilke-uguz.md" component="portrait" filter="role == 'Principal Investigator'" %} {% include section.html background="images/backgroundv4.png" dark=true %} {% include figure.html image="images/Ilke.png" %}
-
   Ilke Uguz, Ph.D.<br>
   Assistant Professor, Biomedical Engineering, Stevens Institute of Technology<br>
   Postdoctoral Researcher, Electrical Engineering, Columbia University<br>
@@ -30,7 +29,6 @@ nav:
 {% include list.html data="members/sara-bender-bier.md" component="portrait" filter="role == 'PhD Student'" %}
 {% include section.html background="images/backgroundv4.png" dark=true %}
 {% include figure.html image="images/Sara.jpg" %}
-
   Sara Bender-Bier<br>
   PhD Student, Biomedical Engineering, Stevens Institute of Technology<br>
   Master of BioEngineering, Applied Bioengineering, Rice University<br>
@@ -45,7 +43,6 @@ Hobbies: Soccer, Hiking, 3D Printing, Hanging out with my dog Lincoln
 {% include list.html data="members/julia-reznik.md" component="portrait" filter="role == 'Undergraduate Research Assistant'" %}
 {% include section.html background="images/backgroundv4.png" dark=true %}
 {% include figure.html image="images/Julia.jpeg" %}
-
   Julia Reznik<br>
   Undergraduate Student, Biomedical Engineering, a concentration in Neuroengineering and Biomedical Imaging, Stevens Institute of Technology<br>
 
