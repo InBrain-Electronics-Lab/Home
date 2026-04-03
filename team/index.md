@@ -8,52 +8,80 @@ nav:
 # {% include icon.html icon="fa-solid fa-users" %}A small but mighty team makes up the InBrain Electronics Lab!
 
 {% include section.html %}
-{% include section.html background="images/backgroundv4.png" dark=true %}
-{% include list.html data="site.members" component="portrait" filter="role == 'pi'" %}
 
-{% include section.html %}
+<div class="team-cards">
 
-{% include list.html data="members/ilke-uguz.md" component="portrait" filter="role == 'Principal Investigator'" %} {% include section.html background="images/backgroundv4.png" dark=true %} {% include figure.html image="images/Ilke.png" %}
-  Ilke Uguz, Ph.D.<br>
-  Assistant Professor, Biomedical Engineering, Stevens Institute of Technology<br>
-  Postdoctoral Researcher, Electrical Engineering, Columbia University<br>
-  PhD, Microelectronics, École des Mines de Saint-Étienne<br>
-  Master of Science, Biophysics, Dresden Technical University<br>
-  Bachelor's Degree, Electrical Engineering, Yildiz Technical University<br>
+  <div class="team-card">
+    <img class="team-photo" src="images/Ilke.png" alt="Ilke Uguz" />
+    <div class="team-info">
+      <p class="team-name">Ilke Uguz, Ph.D.</p>
+      <p class="team-role">Principal Investigator · Assistant Professor, Biomedical Engineering</p>
+      <hr class="team-divider" />
+      <div class="team-edu">
+        <span>Postdoctoral Researcher, Electrical Engineering — Columbia University</span>
+        <span>Ph.D., Microelectronics — École des Mines de Saint-Étienne</span>
+        <span>M.S., Biophysics — Dresden Technical University</span>
+        <span>B.S., Electrical Engineering — Yildiz Technical University</span>
+      </div>
+    </div>
+  </div>
 
-<!--Research Interests:<br> Hobbies: -->
+  <div class="team-card">
+    <img class="team-photo" src="images/Sara.jpg" alt="Sara Bender-Bier" />
+    <div class="team-info">
+      <p class="team-name">Sara Bender-Bier</p>
+      <p class="team-role">Ph.D. Student · Biomedical Engineering</p>
+      <hr class="team-divider" />
+      <div class="team-edu">
+        <span>M.B.E., Applied Bioengineering — Rice University</span>
+        <span>B.S., Cellular & Molecular Biology / Biomedineering — University of Michigan</span>
+      </div>
+      <p class="team-bio">Expertise in bipolar and multipolar electrical sensing and stimulation. Previously at Abbott (Cardiac Rhythm Management), XN Health (Lead Product Development Engineer), and as an ORISE Fellow at the FDA's CDRH.</p>
+      <div class="tag-row">
+        <span class="tag interest">Visual prosthetics</span>
+        <span class="tag interest">Flexible microelectronics</span>
+        <span class="tag interest">Chemical sensing</span>
+        <span class="tag hobby">Soccer</span>
+        <span class="tag hobby">Hiking</span>
+        <span class="tag hobby">3D printing</span>
+        <span class="tag hobby">Lincoln the dog</span>
+      </div>
+    </div>
+  </div>
 
+  <div class="team-card">
+    <img class="team-photo" src="images/Julia.jpeg" alt="Julia Reznik" />
+    <div class="team-info">
+      <p class="team-name">Julia Reznik</p>
+      <p class="team-role">Undergraduate Student · Biomedical Engineering, Neuroengineering & Biomedical Imaging</p>
+      <hr class="team-divider" />
+      <p class="team-bio">Proficient in MATLAB, SolidWorks, COMSOL, and Simulink. Undergraduate Lab & Grading Assistant for ENGR 245 (Circuits & Systems) and ENGR 212 (Design of Dynamical Systems).</p>
+      <div class="tag-row">
+        <span class="tag interest">Implantable neuroprosthetics</span>
+        <span class="tag interest">Neurorehabilitation</span>
+        <span class="tag hobby">Snowboarding</span>
+        <span class="tag hobby">Traveling</span>
+        <span class="tag hobby">Guitar</span>
+        <span class="tag hobby">3D design</span>
+      </div>
+    </div>
+  </div>
 
+</div>
 
-{% include section.html %}
-{% include list.html data="members/sara-bender-bier.md" component="portrait" filter="role == 'PhD Student'" %}
-{% include section.html background="images/backgroundv4.png" dark=true %}
-{% include figure.html image="images/Sara.jpg" %}
-  Sara Bender-Bier<br>
-  PhD Student, Biomedical Engineering, Stevens Institute of Technology<br>
-  Master of BioEngineering, Applied Bioengineering, Rice University<br>
-  Bachelor of Science, Cellular & Molecular Biology: Biomedical Engineering, University of Michigan<br>
-  
-Sara has expertise in bipolar and multipolar electrical sensing and stimulation applications in the medical device industry. Before joining the InBrain Electronics Lab, she spent three years focused on Cardiac Rhythm Management at Abbott, troubleshooting and programming pacemakers and defibrillators. Before Abbott, she was the Lead Product Development Engineer at a startup called XN Health, developing a novel multipolar basket catheter for trans-tracheal electrical stimulation. Before completing her Master's at Rice, Sara was an ORISE Fellow at the Center for Devices and Radiological Health (CDRH) at the FDA in the Division of Applied Mechanics, focused on the development of safety parameters for ultrasound permeation of the Blood-Brain Barrier, as well as COVID-19 Infection Modeling.
-
-Research Interests: Visual Prosthetics, Flexible Microelectronics, Chemical Sensing<br>
-Hobbies: Soccer, Hiking, 3D Printing, Hanging out with my dog Lincoln
-
-{% include section.html %}
-{% include list.html data="members/julia-reznik.md" component="portrait" filter="role == 'Undergraduate Research Assistant'" %}
-{% include section.html background="images/backgroundv4.png" dark=true %}
-{% include figure.html image="images/Julia.jpeg" %}
-  Julia Reznik<br>
-  Undergraduate Student, Biomedical Engineering, a concentration in Neuroengineering and Biomedical Imaging, Stevens Institute of Technology<br>
-
-As part of her biomedical engineering curriculum at Stevens Institute of Technology, Julia has completed a range of projects spanning biomaterials, digital signal processing, biosensors, biomechanics, circuits, and dynamical systems. Through this work, she has developed strong hands-on proficiency in engineering design and simulation tools, including MATLAB, SolidWorks, COMSOL, and Simulink. In addition, Julia serves as an Undergraduate Laboratory and Grading Assistant for two sophomore-level engineering courses, ENGR 245 (Circuits and Systems) and ENGR 212 (Design of Dynamical Systems), where she supports students in circuit implementation, characterization, and system modeling, while further strengthening her technical and instructional expertise.
-
-Research Interests: Implantable neuroprosthetics and neurorehabilitation technology<br>
-Hobbies: Snowboarding, Traveling, 3D Design, Playing Guitar, and Reading.
-
-
-{% capture content %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
+<style>
+.team-cards { display: flex; flex-direction: column; gap: 1rem; margin-top: 1.5rem; }
+.team-card { display: flex; gap: 1.25rem; padding: 1.25rem; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; background: #fff; }
+.team-photo { width: 110px; height: 130px; object-fit: cover; border-radius: 8px; flex-shrink: 0; }
+.team-info { flex: 1; min-width: 0; }
+.team-name { font-size: 16px; font-weight: 600; margin: 0 0 2px; }
+.team-role { font-size: 13px; color: #666; margin: 0 0 10px; }
+.team-divider { border: none; border-top: 1px solid rgba(0,0,0,0.08); margin: 8px 0; }
+.team-edu { font-size: 12px; color: #666; line-height: 1.7; margin-bottom: 10px; }
+.team-edu span { display: block; }
+.team-bio { font-size: 13px; color: #555; line-height: 1.6; margin: 0 0 10px; }
+.tag-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { font-size: 11px; padding: 3px 8px; border-radius: 99px; }
+.tag.interest { background: #E6F1FB; color: #0C447C; border: 1px solid #B5D4F4; }
+.tag.hobby { background: #E1F5EE; color: #085041; border: 1px solid #9FE1CB; }
+</style>
