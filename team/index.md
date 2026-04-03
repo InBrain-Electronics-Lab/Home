@@ -12,7 +12,7 @@ nav:
 <div class="team-cards">
 
   <div class="team-card">
-    <img class="team-photo" src="images/Ilke.png" alt="Ilke Uguz" />
+    {% include figure.html image="images/Ilke.png" %}
     <div class="team-info">
       <p class="team-name">Ilke Uguz, Ph.D.</p>
       <p class="team-role">Principal Investigator · Assistant Professor, Biomedical Engineering</p>
@@ -27,7 +27,7 @@ nav:
   </div>
 
   <div class="team-card">
-    <img class="team-photo" src="images/Sara.jpg" alt="Sara Bender-Bier" />
+    {% include figure.html image="images/Sara.jpg" %}
     <div class="team-info">
       <p class="team-name">Sara Bender-Bier</p>
       <p class="team-role">Ph.D. Student · Biomedical Engineering</p>
@@ -50,7 +50,7 @@ nav:
   </div>
 
   <div class="team-card">
-    <img class="team-photo" src="images/Julia.jpeg" alt="Julia Reznik" />
+    {% include figure.html image="images/Julia.jpeg" %}
     <div class="team-info">
       <p class="team-name">Julia Reznik</p>
       <p class="team-role">Undergraduate Student · Biomedical Engineering, Neuroengineering & Biomedical Imaging</p>
