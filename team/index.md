@@ -2,7 +2,7 @@
 title: Our Team
 nav:
   order: 3
-  tooltip: About our lab
+  tooltip: Our Team
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}A small but mighty team makes up the InBrain Electronics Lab!
