@@ -70,7 +70,7 @@ nav:
 
 <style>
 .team-cards { display: flex; flex-direction: column; gap: 1rem; margin-top: 1.5rem; }
-.team-card { display: flex; gap: 1.25rem; padding: 1.25rem; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; background: #fff; }
+.team-card { display: flex; gap: 1.25rem; padding: 1.25rem; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; background: #fff; align-items: flex-start; }
 .team-photo { width: 110px; height: 130px; object-fit: cover; border-radius: 8px; flex-shrink: 0; }
 .team-info { flex: 1; min-width: 0; }
 .team-name { font-size: 16px; font-weight: 600; margin: 0 0 2px; }
