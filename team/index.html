@@ -695,8 +695,10 @@
 <style>
 .team-cards { display: flex; flex-direction: column; gap: 1rem; margin-top: 1.5rem; }
 .team-card { display: flex; gap: 1.25rem; padding: 1.25rem; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; background: #fff; align-items: flex-start; }
-.team-photo { width: 110px; height: 130px; object-fit: cover; border-radius: 8px; flex-shrink: 0; }
+.team-card figure { margin: 0; flex-shrink: 0; width: 160px; }
+.team-card figure img { width: 160px; height: 190px; object-fit: cover; border-radius: 8px; display: block; }
 .team-info { flex: 1; min-width: 0; }
+.team-info p, .team-info span { text-align: left; }
 .team-name { font-size: 16px; font-weight: 600; margin: 0 0 2px; }
 .team-role { font-size: 13px; color: #666; margin: 0 0 10px; }
 .team-divider { border: none; border-top: 1px solid rgba(0,0,0,0.08); margin: 8px 0; }
