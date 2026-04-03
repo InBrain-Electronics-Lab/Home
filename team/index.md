@@ -34,7 +34,7 @@ nav:
       <hr class="team-divider" />
       <div class="team-edu">
         <span>M.B.E., Applied Bioengineering — Rice University</span>
-        <span>B.S., Cellular & Molecular Biology / Biomedineering — University of Michigan</span>
+        <span>B.S., Cellular & Molecular Biology: Biomedical Engineering — University of Michigan</span>
       </div>
       <p class="team-bio">Expertise in bipolar and multipolar electrical sensing and stimulation. Previously at Abbott (Cardiac Rhythm Management), XN Health (Lead Product Development Engineer), and an ORISE Fellow at the FDA's CDRH.</p>
       <div class="tag-row">
