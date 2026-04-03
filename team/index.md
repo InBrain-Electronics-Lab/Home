@@ -22,6 +22,12 @@ nav:
         <span>Ph.D., Microelectronics — École des Mines de Saint-Étienne</span>
         <span>M.S., Biophysics — Dresden Technical University</span>
         <span>B.S., Electrical Engineering — Yildiz Technical University</span>
+      <div class="tag-row">
+        <span class="tag interest">Flexible microelectronics</span>
+        <span class="tag interest">Organic electronics</span>        
+        <span class="tag hobby">Movies</span>
+        <span class="tag hobby">Biking</span>
+      </div>
       </div>
     </div>
   </div>
