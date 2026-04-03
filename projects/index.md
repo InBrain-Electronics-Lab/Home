@@ -2,7 +2,7 @@
 title: Collaborators
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Our Collaborators
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Our Collaborators
