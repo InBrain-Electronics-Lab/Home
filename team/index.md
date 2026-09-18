@@ -55,6 +55,30 @@ nav:
   </div>
 
   <div class="team-card">
+    {% include figure.html image="images/Divya.jpg" %}
+    <div class="team-info">
+      <p class="team-name">Divya Sisodiya</p>
+      <p class="team-role">Ph.D. Student · Biomedical Engineering</p>
+      <hr class="team-divider" />
+      <div class="team-edu">
+        <span>M.S., Quantum Physics — Stevens Institute of Technology</span>
+        <span>M.Tech., Engineering/Applied Physics — Delhi Technological University</span>
+        <span>B.Tech., Electronics and Communication Engineering — Visvesvaraya National Institute of Technology</span>
+      </div>
+      <p class="team-bio">Expertise in optics, quantum optics, computational methods, electronic device fabrication, and microfabrication. Previously an RA at the CSEL Lab, Stevens Institute of Technology; a Measurement Engineer Trainee at Corning; and a Graduate Trainee at Siemens Ltd.</p>
+      <div class="tag-row">
+        <span class="tag interest">Electronic Devices</span>
+        <span class="tag interest">Microfabrication</span>
+        <span class="tag interest">Bioelectronics</span>
+        <span class="tag interest">Implantable Devices</span>
+        <span class="tag hobby">Swimming</span>
+        <span class="tag hobby">Movies</span>
+        <span class="tag hobby">Laser Craft</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="team-card">
     {% include figure.html image="images/Julia.jpeg" %}
     <div class="team-info">
       <p class="team-name">Julia Reznik</p>
