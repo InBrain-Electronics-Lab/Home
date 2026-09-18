@@ -97,7 +97,7 @@ nav:
   </div>
   
   <div class="team-card">
-    {% include figure.html image="images/Gabe.jpeg" %}
+    {% include figure.html image="images/53D72378-9F31-44FB-910F-B30271A94FB8.JPG" %}
     <div class="team-info">
       <p class="team-name">Gabriel Urriola</p>
       <p class="team-role">Undergraduate Student · Computer Engineering</p>
