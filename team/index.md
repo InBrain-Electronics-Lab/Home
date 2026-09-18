@@ -95,7 +95,23 @@ nav:
       </div>
     </div>
   </div>
-
+  
+  <div class="team-card">
+    {% include figure.html image="images/Gabe.jpeg" %}
+    <div class="team-info">
+      <p class="team-name">Gabriel Urriola</p>
+      <p class="team-role">Undergraduate Student · Computer Engineering</p>
+      <hr class="team-divider" />
+      <p class="team-bio">Proficient in LabVIEW, Circuit Design, PCB Design, C++, Python, CAD Modeling, and COMSOL. A. James Clark Scholarship recipient.</p>
+      <div class="tag-row">
+        <span class="tag interest">Electrical Stimulation</span>
+        <span class="tag hobby">Soccer</span>
+        <span class="tag hobby">Paddle Boarding</span>
+        <span class="tag hobby">Raspberry Pi Projects</span>
+      </div>
+    </div>
+  </div>
+  
 </div>
 
 <style>
