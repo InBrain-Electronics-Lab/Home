@@ -74,7 +74,7 @@ We are proud to have a small but mighty team from diverse academic backgrounds.
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/teamphoto1.jpg"
   link="team"
   title="Our Team"
   text=text
